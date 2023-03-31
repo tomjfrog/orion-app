@@ -9,6 +9,7 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.0.4</version>
+    <relativePath />
   </parent>
   <name>orion-app</name>
 
