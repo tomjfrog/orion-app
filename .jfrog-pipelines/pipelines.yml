@@ -20,8 +20,8 @@ pipelines:
         type: MvnBuild
         configuration:
           mvnCommand: "clean install"
-          resolverSnapshotRepo: {{ .Values.deployerRepo }}
-          resolverReleaseRepo: {{ .Values.deployerRepo }}
+          resolverSnapshotRepo: {{ .Values.resolverRepo }}
+          resolverReleaseRepo: {{ .Values.resolverRepo }}
           deployerSnapshotRepo: {{ .Values.deployerRepo }}
           deployerReleaseRepo: {{ .Values.deployerRepo }}
           integrations:
