@@ -1,7 +1,7 @@
 repoPath: tomjfrog/orion-app
-gitProvider: Github_tomjfrog
+gitProvider: orion_github
 gitBranch: "main"
 artifactory: jfrog_cloud
-deployerRepo: petclinicmonolith-maven-dev
+deployerRepo: orion-app-dev-virtual
 
 
