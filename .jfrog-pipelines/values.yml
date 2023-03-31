@@ -2,6 +2,6 @@ repoPath: tomjfrog/orion-app
 gitProvider: orion_github
 gitBranch: "main"
 artifactory: orion_artifactory
-deployerRepo: orion-app-dev-virtual
+deployerRepo: orion-maven-remote
 
 
