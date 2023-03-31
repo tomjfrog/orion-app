@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: tomjfrog.jfrog.io
+  snapshotRepo: mavencentral-remote
+  releaseRepo: mavencentral-remote
+deployer:
+  serverId: tomjfrog.jfrog.io
+  snapshotRepo: orion-app-dev-local
+  releaseRepo: orion-app-dev-local
