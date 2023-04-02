@@ -20,6 +20,10 @@ pipelines:
         type: MvnBuild
         configuration:
           mvnCommand: "clean install"
+          resolverSnapshotRepo: {{ .Values.resolverRepo }}
+          resolverReleaseRepo: {{ .Values.resolverRepo }}
+          deployerSnapshotRepo: {{ .Values.deployerRepo }}
+          deployerReleaseRepo: {{ .Values.deployerRepo }}
           integrations:
             - name: {{ .Values.artifactory }}
           inputResources:
