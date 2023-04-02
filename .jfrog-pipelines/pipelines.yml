@@ -20,7 +20,8 @@ pipelines:
         type: MvnBuild
         configuration:
           mvnCommand: "clean install"
-          configFilelocation: "./jfrog/projects/maven.yaml"
+          configFilelocation: "./jfrog/projects"
+          configFileName: "maven.yaml"
           integrations:
             - name: {{ .Values.artifactory }}
           inputResources:
